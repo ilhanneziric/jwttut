@@ -10,7 +10,7 @@ app.use('/auth', require('./routes/jwtAuth'));
 
 app.use('/dashboard', require('./routes/dashboard'));
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.Port || 5000
 
 app.listen(PORT, () => {
     console.log('server is runing on port 5000');
